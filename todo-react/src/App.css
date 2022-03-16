@@ -37,7 +37,7 @@ h1 {
 
 h2{
     margin-bottom: 20px;
-    color: rgb(28,28,30);
+    color: rgb(2, 2, 48);
 }
 .complete {
     text-decoration: line-through;
@@ -77,16 +77,12 @@ h2{
     text-transform: capitalize;
 }
 
-.todo-input.edit {
-    border: 2px solid #149fff;
-}
 
 .todo-button.edit {
     background: linear-gradient(
     90deg,
-    #124b81,
-    #124b8171 
-    );
+    rgb(92, 92, 92) 0%,
+    rgb(54, 54, 56) 100%    );
     padding: 16px 22px;
 }
 
@@ -103,14 +99,10 @@ h2{
     margin: 4px auto;
     color: #fff;
     background: linear-gradient(
-    90deg,
-    #3c345c,
-    #3c345c62
-    );
-
+    90deg, #3c345c, #3c345c62);
     padding: 16px;
     border-radius: 5px;
-    width: 90%;
+    width: 50%;
 }
 
 .todo-row:nth-child(4n + 1) {
